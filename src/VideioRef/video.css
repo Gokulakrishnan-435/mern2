@@ -1,0 +1,17 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+video{
+    width: 100%;
+    height: 100vh;
+}
+.videoBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.videoBlock button{
+    background: crimson;
+    color: white;
+    width: 80px;
+    height: 20px;
+}

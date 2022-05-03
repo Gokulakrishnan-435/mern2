@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #eee;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+table  {
+    border: 1px solid crimson;
+    border-spacing: 0px;
+   
+
+}
+ table tr th{
+    padding: 4px;
+    border: 1px solid #111;
+    background: #111;
+    color: white;
+}
+table tr td{
+    padding: 4px;
+    border: 1px solid #111;
+    text-align: center;
+    border-collapse: collapse;
+   
+
+}
+h1{
+    font-size: 80px;
+}
+

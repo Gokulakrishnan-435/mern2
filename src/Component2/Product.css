@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#productBlock{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+   }
+#playerBlock{
+    flex-basis: 24%;
+    padding: 10px;
+    border: 1px solid rgb(14, 13, 13);
+   }
+img{
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+   }
+article h2{
+    font-size: 16px;
+    color: royalblue;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    
+   }
+ .addcart{
+    background-color: royalblue;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    width: 60%;
+    padding: 10px;
+    justify-self: center;
+    cursor: pointer;
+   }
+.outofStock{
+    background:#ccc;
+    opacity: 0.5px;
+    width: 60%;
+    padding: 10px;
+    cursor: not-allowed;
+}
+  
